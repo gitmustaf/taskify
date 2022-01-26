@@ -1,0 +1,40 @@
+.input {
+  display: flex;
+  width: 90%;
+  position: relative;
+  align-items: center;
+}
+
+.inputBox {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 30px;
+  font-size: 25px;
+  border: none;
+  transition: 0.4s;
+  box-shadow: inset 0 0 5px gray;
+}
+
+.inputBox:focus {
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+
+.inputSubmit {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+  border-radius: 50px;
+  background-color: darkcyan;
+  right: 0px;
+  border: none;
+  font-size: 15px;
+  color: honeydew;
+  transition: 0.4s all;
+  box-shadow: 0 0 5px black;
+}
+
+.inputSubmit:hover {
+  cursor: pointer;
+}
