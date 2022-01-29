@@ -16,6 +16,7 @@ const InputField = ({ todo, setTodo, handleAdd }: Props) => {
   >
     <input
       type="input"
+      ref={inputRef}
       value={todo}
       onChange={(e) => setTodo(e.target.value)}
       placeholder="Enter a task"
